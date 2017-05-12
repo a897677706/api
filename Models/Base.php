@@ -1,8 +1,8 @@
 <?php
 /**
 * Model基类
-* @Author: KongSeng
-* @Email: 643828892@qq.com
+* @Author: jianghonggang
+* 
 */
 
 namespace App\Models;
