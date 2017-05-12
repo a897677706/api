@@ -16,7 +16,11 @@ class imagesRepository extends Base{
 		
 	}
 
-
+	/**
+     * 主要image处理
+     *
+     * 
+     */
 	public function begin($imageId,$size,$type){
 		$webp = strpos($_SERVER['HTTP_ACCEPT'], 'image/webp');
 		$imageM=new Img;
